@@ -4,8 +4,9 @@
 #
 ################################################################################
 
-IMX_MCUXPRESSO_VERSION = mcuxpresso_sdk_2.13.x
-IMX_MCUXPRESSO_SITE = $(call github,fenglichaoHD,imx-mcuxpresso,$(IMX_MCUXPRESSO_VERSION))
+IMX_MCUXPRESSO_VERSION = mcuxpresso_sdk_2.15.x
+IMX_MCUXPRESSO_SITE = https://github.com/fenglichaoHD/imx-mcuxpresso.git
+IMX_MCUXPRESSO_SITE_METHOD = git
 IMX_MCUXPRESSO_LICENSE = GPL-2.0+
 IMX_MCUXPRESSO_LICENSE_FILES = COPYING.GPL
 
